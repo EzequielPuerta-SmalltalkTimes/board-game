@@ -31,6 +31,6 @@ BaselineOfBoardGame >> setUpDependencies: spec [
 		with: [ 
 			spec
 				repository: 'github://ba-st/Buoy:v6/source';
-				loads: #('Deployment') ];
+				loads: #('Deployment' 'Dependent-SUnit-Extensions') ];
 		import: 'Buoy'
 ]
